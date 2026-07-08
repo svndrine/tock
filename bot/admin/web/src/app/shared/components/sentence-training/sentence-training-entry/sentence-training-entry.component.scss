@@ -117,16 +117,15 @@ tock-sentence-training-sentence {
   align-items: center;
 
   button {
-    height: 38px !important; /* Même hauteur que les boutons de droite pour l'alignement */
-    padding: 0 0.75rem !important; /* Du padding sur les côtés pour laisser respirer le texte */
+    height: 38px !important;
+    padding: 0 0.75rem !important;
     display: flex;
     align-items: center;
-    gap: 0.35rem; /* Espace entre l'icône et le texte */
+    gap: 0.35rem;
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
-    border-radius: 20px !important; /* Garde un effet pilule très arrondi propre */
-
+    border-radius: 20px !important;
     nb-icon {
       font-size: 1.25rem !important;
       color: var(--text-hint-color) !important;
@@ -138,14 +137,14 @@ tock-sentence-training-sentence {
       font-weight: 600;
       color: var(--text-hint-color);
       transition: color 0.15s ease;
-      text-transform: none; /* Évite que Nebular force le texte en MAJUSCULES */
+      text-transform: none;
     }
 
     &:hover {
       background: rgba(143, 155, 179, 0.12) !important;
 
       nb-icon, .btn-text {
-        color: var(--text-basic-color) !important; /* Tout devient plus foncé au survol */
+        color: var(--text-basic-color) !important;
       }
     }
 
